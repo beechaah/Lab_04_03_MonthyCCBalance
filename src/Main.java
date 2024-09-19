@@ -2,15 +2,16 @@ public class Main
 {
     public static void main(String[] args)
     {
-        double ccBalance = 5000;
-        double intrestRate = 0.17;
-        double balance;
+        double balance = 5000;
+        double interestRate = 0.17;
 
         System.out.println("Enter your Credit Card Balance: ");
-        System.out.println("Enter your Intrest Rate: ");
+        System.out.println("Enter your Interest Rate: ");
 
-        for(int month = 1; month <= 12; month++);
-        balance = ccBalance + ccBalance * intrestRate;
-        System.out.println("Your balance for month is :" + balance);
+        balance = balance + balance * interestRate;
+        System.out.println("Your balance for month one is : " + balance);
+
+        balance = balance + balance * interestRate;
+        System.out.println("Your balance for month two is : " + balance);
     }
 }
